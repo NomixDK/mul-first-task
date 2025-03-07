@@ -22,13 +22,17 @@ nav {
     background-color: white;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 1%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
 
+}
+
+@media (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 nav li {
@@ -39,6 +43,14 @@ nav li {
 nav li a {
     text-decoration: none;
     color: orange;
-    font-size: 30px;
+    font-size: 120px;
     margin-inline: 20px;
+}
+
+#a1 {
+    background-color: aquamarine;
+}
+
+#a2 {
+    background-color: red;
 }
