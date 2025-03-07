@@ -1,0 +1,44 @@
+* {
+    font-family: "monospace", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    position: relative;
+    align-items: center;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav li {
+    list-style: none;
+    margin-inline: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    margin-inline: 20px;
+}
